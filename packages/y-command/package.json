@@ -1,0 +1,25 @@
+{
+  "name": "y-command",
+  "version": "1.0.0",
+  "description": "a Command library just for y-terminal",
+  "main": "lib/index.js",
+  "module": "yc/index.mjs",
+  "files": [
+    "yc",
+    "lib"
+  ],
+  "keywords": [
+    "y-command",
+    "命令集",
+    "y-terminal"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "release": "release-it"
+  },
+  "author": "mengqiuleo",
+  "license": "MIT",
+  "typings": "lib/index.d.ts"
+}
