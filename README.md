@@ -1,7 +1,7 @@
 
 
 <p align="center">
-
+  <img src='./public/logo.gif' />
   <h2 align="center" style="font-weight: 600">y-command</h2>
 </p>
 
