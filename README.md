@@ -1,7 +1,7 @@
-# y-command
+
 
 <p align="center">
-  <img src="https://doc.panjingyi.top/blog/202207031041891.gif">
+
   <h2 align="center" style="font-weight: 600">y-command</h2>
 </p>
 
