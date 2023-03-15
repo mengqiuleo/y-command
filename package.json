@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "pnpm -C play dev",
-    "build:y-command": "gulp -f packages/commands/script/build/index.ts"
+    "build:y-command": "gulp -f packages/commands/script/build/index.ts",
+    "publish:y-command": "gulp -f packages/commands/script/publish/index.ts"
   },
   "keywords": [],
   "author": "",

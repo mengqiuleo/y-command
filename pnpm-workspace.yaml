@@ -4,4 +4,4 @@ packages:
   # 公共的，给我所有的向使用的公开组件
   - 'play'
   # 公共的方法 api -axios
-  - 'docs/**'
+  - 'site'
