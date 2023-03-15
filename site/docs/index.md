@@ -2,14 +2,16 @@
 layout: home
 
 title: y-command
+editLink: true
 titleTemplate: 开箱即用的命令集
+lastUpdated: true
 
 hero:
   name: y-command
   text: 一个开箱即用的命令集
   tagline: 让你的浏览器终端命令开发更简单
   image:
-    /src: /logo.png
+    src: https://doc.panjingyi.top/blog/202207031041891.gif
     alt: y-command
   actions:
     - theme: brand

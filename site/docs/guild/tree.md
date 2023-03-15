@@ -6,13 +6,11 @@
 ```
 -- packages
 
-  -- cli 脚手架(create-easyest)
+  -- commands 本地开发组件库(@y-command/commands)
 
-  -- components 本地开发组件库(@easyest/components)
+  -- y-command 打包后组件库,既要发布的组件库(y-command)
 
-  -- easyest 打包后组件库,既要发布的组件库(easyest)
-
-  -- utils 工具包(@easyest/utils)
+  -- utils 工具包(@y-command/utils)
 
 -- play 测试开发组件库的Vue3项目目录
 

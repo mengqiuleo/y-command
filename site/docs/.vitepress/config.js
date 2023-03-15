@@ -11,7 +11,7 @@ export default {
   themeConfig: {
     nav: [
       { text: '文档', link: '/guild/introduce' },
-      { text: '命令', link: '/commands/introduce' }
+      { text: '命令', link: '/commands/moyu' }
     ],
     sidebar: {
       '/guild': [
@@ -38,18 +38,18 @@ export default {
               link: '/guild/tree'
             },
             {
-              text: '组件开发',
-              link: '/guild/component'
-            },
-            {
-              text: '全局组件',
-              link: '/guild/global'
-            },
-
-            {
-              text: '打包发布',
-              link: '/guild/build'
+              text: '命令开发',
+              link: '/guild/command'
             }
+            // {
+            //   text: '全局组件',
+            //   link: '/guild/global'
+            // },
+
+            // {
+            //   text: '打包发布',
+            //   link: '/guild/build'
+            // }
           ]
         }
       ],
@@ -58,10 +58,6 @@ export default {
           text: 'something funny',
           collapsed: false,
           items: [
-            {
-              text: 'emoji查询',
-              link: '/commands/emoji'
-            },
             {
               text: '摸鱼',
               link: '/commands/moyu'
@@ -73,7 +69,11 @@ export default {
             {
               text: 'ping',
               link: '/commands/ping'
-            }
+            },
+            {
+              text: 'emoji查询',
+              link: '/commands/emoji'
+            },
           ]
         },
         {
@@ -87,6 +87,18 @@ export default {
           ]
         }
       ]
+    },
+
+    markdown: {
+      theme: {
+        light: 'min-dark',
+        dark: 'one-dark-pro',
+      },
+      lineNumbers: true,
+      config: (md) => {
+        // eslint-disable-next-line @typescript-eslint/no-var-requires
+        md.use(require('markdown-it-task-lists'))
+      },
     },
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/mengqiuleo/y-command' }],

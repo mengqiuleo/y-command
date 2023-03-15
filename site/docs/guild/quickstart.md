@@ -1,33 +1,23 @@
 # 快速开始
 
-- 初始化框架
+
+
+- 安装
 
 ```
-npm create easyest
+pnpm y-command
 ```
 
-- 安装 pnpm
 
-```
-npm install pnpm -g
-```
 
-- 安装依赖
+- 在项目中引入
 
-```
-pnpm install
-```
+```ts
+// src/core/commandRegister.ts
 
-- 打包示例组件库
+import { emojiCommand } from '@y-command/commands'
 
-**注意:** 这里需要先执行一次打包,因为组件库文档引用了打包后的文件
-
-```
-pnpm run easyest:build
-```
-
-- 启动测试项目
-
-```
-pnpm run easyest:dev
+const commandList: CommandType[] = [
+  emojiCommand
+]
 ```
