@@ -21,8 +21,6 @@
 <br/>
 
 ## 使用
-npm地址: [y-command](https://www.npmjs.com/package/y-command)
-
 - 安装
 
 ```

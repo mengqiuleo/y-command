@@ -1,6 +1,5 @@
 export default {
   title: 'y-command',
-  base: process.env.NODE_ENV === 'production' ? '/easyest/' : '/',
   // 默认主题
   appearance: 'dark',
 
