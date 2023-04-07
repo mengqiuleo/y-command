@@ -18,6 +18,9 @@
 ## ✨ 特性
 **y-command**是一个 **为y-terminal** 服务的命令集,采用最新的 `Vite4+TypeScript` 为技术栈, 可以实现定制化个人浏览器主页。
 
+
+![y-command](assets/command.jpg)
+
 <br/>
 
 ## 使用
@@ -164,6 +167,8 @@ const commandList: CommandType[] = [
 ## 了解更多
 
 [终端命令行浏览器 y-terminal](https://github.com/mengqiuleo/y-terminal) 是什么？
+
+![](assets/use.jpg)
 
 一个很特别的浏览器主页，支持使用输入命令的方式来操作，目标是帮你在一个 web 终端中高效完成所有的事情！（all in one）
 
