@@ -16,6 +16,9 @@
 ## 了解更多
 
 [终端命令行浏览器 y-terminal](https://github.com/mengqiuleo/y-terminal) 是什么？
+
+![../../../assets/use.jpg](https://doc.panjingyi.top/blog/202304071529010.jpg)
+
 <br/>
 一个很特别的浏览器主页，支持使用输入命令的方式来操作，目标是帮你在一个 web 终端中高效完成所有的事情！（all in one）
 
