@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
+    "@vitest/coverage-c8": "^0.29.8",
     "vite": "^4.1.4",
     "vite-plugin-dts": "1.4.1"
   }

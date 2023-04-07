@@ -1,6 +1,6 @@
 {
   "name": "y-command",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a Command library just for y-terminal",
   "main": "lib/index.js",
   "module": "yc/index.mjs",
