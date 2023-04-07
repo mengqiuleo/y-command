@@ -6,7 +6,7 @@
 ```ts
 // src/core/commandRegister.ts
 
-import { pingCommand } from '@y-command/commands'
+import { pingCommand } from 'y-command/lib'
 
 const commandList: CommandType[] = [
   pingCommand

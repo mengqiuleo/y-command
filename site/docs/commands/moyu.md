@@ -7,7 +7,7 @@
 ```ts
 // src/core/commandRegister.ts
 
-import { moyuCommand } from '@y-command/commands'
+import { moyuCommand } from 'y-command/lib'
 
 const commandList: CommandType[] = [
   moyuCommand

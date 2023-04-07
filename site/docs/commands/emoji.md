@@ -7,7 +7,7 @@
 ```ts
 // src/core/commandRegister.ts
 
-import { emojiCommand } from '@y-command/commands'
+import { emojiCommand } from 'y-command/lib'
 
 const commandList: CommandType[] = [
   emojiCommand

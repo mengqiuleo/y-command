@@ -9,7 +9,7 @@
 ```ts
 // src/core/commandRegister.ts
 
-import { timeCommand } from '@y-command/commands'
+import { timeCommand } from 'y-command/lib'
 
 const commandList: CommandType[] = [
   timeCommand

@@ -29,7 +29,7 @@ npm地址: [y-command](https://www.npmjs.com/package/y-command)
 - 安装
 
 ```
-pnpm y-command
+pnpm add y-command
 ```
 
 
@@ -39,7 +39,7 @@ pnpm y-command
 ```ts
 // src/core/commandRegister.ts
 
-import { emojiCommand } from '@y-command/commands'
+import { emojiCommand } from 'y-command/lib'
 
 const commandList: CommandType[] = [
   emojiCommand
